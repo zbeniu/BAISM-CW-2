@@ -20,7 +20,7 @@ class PasswordValidatorTest {
 
     @Test
     fun allCharacterClasses_isStrong() {
-        assertEquals(Strength.STRONG, PasswordValidator.strength("Abcdef1!"))
+        assertEquals(Strength.WEAK, PasswordValidator.strength("Abcdef1!")) // CELOWO ZEPSUTY TEST
     }
 
     @Test
