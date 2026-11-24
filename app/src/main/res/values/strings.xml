@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BAISM CW2</string>
+    <string name="hint">Wpisz hasło</string>
+    <string name="check">Sprawdź siłę hasła</string>
+</resources>
