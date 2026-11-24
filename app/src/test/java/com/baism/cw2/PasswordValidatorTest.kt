@@ -32,4 +32,9 @@ class PasswordValidatorTest {
     fun strongPassword_isAcceptable() {
         assertTrue(PasswordValidator.isAcceptable("Str0ng&Passw0rd"))
     }
+
+    @Test
+    fun emptyPassword_isWeak() {
+        assertEquals(Strength.WEAK, PasswordValidator.strength(""))
+    }
 }
